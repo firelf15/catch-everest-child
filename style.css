@@ -1,0 +1,24 @@
+/*
+Theme Name:   Catch Everest Child
+Theme URI:    http://catchthemes.com/
+Description:  Catch Everest Child Theme
+Author:       Monika Spielman
+Author URI:   http://www.ms-wit.com
+Template:     catch-everest
+Version:      1.0.0
+Tags: light, gray, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: catcheverest
+
+*/
+
+/*
+For older themes, and themes that do not use wp_enqueue_style() to enqueue their stylesheet, use the following line where twentyfourteen is the name of the directory where the theme resides:
+
+Make sure you uncomment out this import line below if you want to include the parent CSS and the wp_enqueue_style() is not working. If you do not then you will not have any styling in your child theme from the parent theme.
+*/
+
+
+@import url("../catch-everest/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
