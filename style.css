@@ -19,6 +19,57 @@ Make sure you uncomment out this import line below if you want to include the pa
 
 
 @import url("../catch-everest/style.css");
-
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+html body.home.page.page-id-529.page-template-default.custom-background.no-sidebar-full-width.content-full div#page.hfeed.site div#main.container div#primary.content-area div#content.site-content article#post-529.post-529.page.type-page.status-publish.hentry header.entry-header h1.entry-title {
+	display: none;
+	visibility: hidden;
+}
+.clr-left {
+	clear: left;
+}
+.clr-right {
+	clear: right;
+}
+#hgroup-wrap.container {
+	padding-bottom: 0px;
+	padding: 0px;
+	background-color: #333561;
+}
+#header-right {
+	padding: 25px 25px 0 0;
+}
+#site-logo {
+	padding-top: 0;
+	clear: none;
+	float: left;
+}
+#hgroup.with-logo {
+	clear: none;
+	float: left;
+	padding-left: 100px;
+}
+h1#site-title, h1#site-title a {
+	color: #FFF;
+}
+#site-title {
+	text-shadow: none;
+}
+#site-description {
+	color: #FFF;
+	font-size: 1.8rem;
+}
+input#s {
+	background: #FFF;
+}
+div.entry-container header.entry-header div.entry-meta, footer.entry-meta, article.slides div.entry-container div.entry-content, figure.featured-image {
+	display: none;
+	visibility: hidden;
+}
+/* Styles for screens that are atleast 1024px; */
+@media only screen and (min-width: 64em) {
+#hgroup.with-logo {
+	clear: none;
+	float: left;
+	padding-left: 200px;
+}
